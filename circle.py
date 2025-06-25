@@ -11,5 +11,5 @@ class Circle(Shap):
       return  2 * pi * self.radius
 
 
-# ci = Circle(6)
-# print(ci)
+ci = Circle(5)
+print(ci)

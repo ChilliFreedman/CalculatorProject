@@ -4,6 +4,7 @@ class Triangle(Rectangle):
     def __init__(self,length, width):
         super().__init__(length, width)
         self.diagonal = None
+
     def get_area(self):
         return super().get_area() / 2
 
