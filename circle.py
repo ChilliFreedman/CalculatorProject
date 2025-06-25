@@ -1,0 +1,11 @@
+from math import pi
+from calculator import Shap
+class Circle(Shap):
+    def __init__(self,radius):
+        self.radius = radius
+
+    def get_area(self):
+        return pi * self.radius ** 2
+
+# ci = Circle(4)
+# print(ci)
