@@ -6,5 +6,8 @@ class Hexagon(Shap):
 
     def get_area(self):
         return 3 * sqrt(3) * self.side ** 2 / 2
+
+    def get_perimeter(self):
+        return 6 * self.side
 # he = Hexagon(4)
 # print(he)

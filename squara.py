@@ -6,6 +6,7 @@ class Squara(Rectangle):
         super().__init__(side, side)
         self.side = side
 
+
 # sq = Squara(5)
 # print(sq)
 

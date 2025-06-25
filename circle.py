@@ -7,5 +7,9 @@ class Circle(Shap):
     def get_area(self):
         return pi * self.radius ** 2
 
-# ci = Circle(4)
+    def get_perimeter(self):
+      return  2 * pi * self.radius
+
+
+# ci = Circle(6)
 # print(ci)

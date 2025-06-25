@@ -8,5 +8,8 @@ class Rectangle(Shap):
     def get_area(self):
         return self.length * self.width
 
+    def get_perimeter(self):
+        return self.length * 2 + self.width * 2
+
 # re = Rectangle(5,10)
 # print(re)
